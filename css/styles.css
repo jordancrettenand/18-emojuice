@@ -8,3 +8,61 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header {
+  background: url(../img/background-legumes.png);
+  background-size: cover;
+  padding: 20px;
+  color: red;
+}
+
+.logo {
+  max-width: 250px;
+  margin: auto;
+}
+
+.title {
+  background: #fff;
+  padding: 20px;
+}
+
+h2 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+
+.section-light {
+  background: #E3F4FF;
+  padding: 20px;
+}
+
+.box-blog {
+  background: green;
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin: 50px 0 50px 0;
+}
+
+.section-dark {
+  background: #57BB6B;
+  color: #fff;
+  padding: 20px;
+}
+
+a {
+  border-radius: 10px;
+  background: #57BB6B;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
