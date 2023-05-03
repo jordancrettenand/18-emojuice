@@ -4,7 +4,7 @@ body {
   background: #ddd;
   font-family: 'Maven Pro', sans-serif;
   font-family: 'Quattrocento', serif;
-  font-family: 'Sriracha', cursive;
+  font-family: 'Sriracha', cursive, Helvetica;
 }
 
 img {
@@ -32,7 +32,8 @@ header {
 h2 {
   color: #000;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 700;
+  font-family: 'Maven Pro', sans-serif;
 }
 
 
@@ -76,6 +77,12 @@ footer {
   padding: 20px;
 }
 img {
-  width: 39px;
+  width: 27px;
   margin: auto;
+}
+
+.img-selection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
