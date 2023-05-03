@@ -51,7 +51,7 @@ h2 {
 
 .section-dark {
   background: #57BB6B;
-  color: #fff;
+  color: pink;
   padding: 20px;
 }
 
@@ -65,4 +65,10 @@ a {
   font-size: 18px;
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  background: #fff;
+  color: #57BB6B;
+  padding: 20px;
 }
