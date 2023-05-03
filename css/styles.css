@@ -4,7 +4,9 @@ body {
   background: #ddd;
   font-family: 'Maven Pro', sans-serif;
   font-family: 'Quattrocento', serif;
-  font-family: 'Sriracha', cursive, Helvetica;
+  font-family: 'Sriracha', Arial;
+  border-top: #57BB6B solid 8px;
+  text-align: center;
 }
 
 img {
@@ -25,8 +27,14 @@ header {
 }
 
 .title {
-  background: #fff;
+  background: #ffffffe3;
   padding: 20px;
+}
+
+.slogan {
+  font-size: 20px;
+  color: #57BB6B;
+  font-weight: 400;
 }
 
 h2 {
@@ -36,14 +44,48 @@ h2 {
   font-family: 'Maven Pro', sans-serif;
 }
 
+.plus {
+  background: none;
+  text-decoration: underline;
+  color: #000;
+  font-size: 14px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+}
+
+
+h3 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Maven Pro', sans-serif;
+  margin-bottom: 0;
+  font-family: 'Sriracha', Arial;
+}
+
+h4 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+
+
+
+p {
+  color: #000;
+  font-size: 16px;
+  font-family: 'Quattrocento', serif;
+  font-weight: 400;
+}
 
 .section-light {
-  background: #E3F4FF;
+  background: #fff;
   padding: 20px;
 }
 
 .box-blog {
-  background: green;
   border-radius: 30px;
   padding: 20px;
   display: flex;
@@ -66,7 +108,9 @@ a {
   padding: 10px 20px;
   margin: 10px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
   display: flex;
   flex-direction: column;
 }
@@ -76,13 +120,41 @@ footer {
   color: #57BB6B;
   padding: 20px;
 }
-img {
-  width: 27px;
+
+.credit {
+  font-size: 12px;
+  color: #57BB6B;
+}
+
+
+.img-blog {
+  width: 64px;
   margin: auto;
 }
 
 .img-selection {
+
+  max-width: 27px;
+
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+
+.blog-banane {
+  background: #FFF8D7;
+}
+
+.blog-kiwi {
+  background: #C4F2AD;
+}
+
+.blog-cafe {
+  background: #D3C6B2;
+}
+
+.blog-fraise {
+  background: #F7A4B4;
 }
