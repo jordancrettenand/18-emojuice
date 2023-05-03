@@ -17,18 +17,26 @@ img {
 header {
   background: url(../img/background-legumes.png);
   background-size: cover;
-  padding: 20px;
-  color: red;
+  padding: 28px 30px 44px 30px;
 }
 
+
+
+
+
+
 .logo {
-  max-width: 250px;
+  width: 200px;
   margin: auto;
 }
+
+
+
 
 .title {
   background: #ffffffe3;
   padding: 20px;
+  margin-bottom: 35px;
 }
 
 .slogan {
@@ -37,111 +45,113 @@ header {
   font-weight: 400;
 }
 
+.container-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta {
+  background: #57bb6b;
+  border-radius: 15px;
+  padding: 13px 26px;
+  margin: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.cta-light {
+  background: #fff;
+  color: #57bb6b;
+}
+
+.section-light {
+  background: #fff;
+  padding: 94px 68px 94px 68px;
+}
+
 h2 {
-  color: #000;
-  font-size: 30px;
+  color: #57bb6b;
+  font-size: 26px;
   font-weight: 700;
   font-family: 'Maven Pro', sans-serif;
+  margin: 0;
 }
 
-.plus {
-  background: none;
-  text-decoration: underline;
+.titre-light {
   color: #000;
-  font-size: 14px;
-  font-family: 'Maven Pro', sans-serif;
-  font-weight: 700;
 }
 
-
-h3 {
-  color: #000;
-  font-size: 30px;
-  font-weight: 700;
-  font-family: 'Maven Pro', sans-serif;
-  margin-bottom: 0;
-  font-family: 'Sriracha', Arial;
+.titre-dark {
+  color: #fff;
 }
 
-h4 {
-  color: #000;
-  font-size: 30px;
-  font-weight: 700;
-  font-family: 'Maven Pro', sans-serif;
+.texte-light {
+  margin-top: 28px;
+  margin-bottom: 40px;
 }
-
-
-
 
 p {
   color: #000;
   font-size: 16px;
   font-family: 'Quattrocento', serif;
   font-weight: 400;
+  margin-top: 5px;
 }
 
-.section-light {
-  background: #fff;
-  padding: 20px;
-}
-
-.box-blog {
-  border-radius: 30px;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  margin: 50px 0 50px 0;
-}
-
-.section-dark {
-  background: #57BB6B;
-  color: pink;
-  padding: 20px;
-}
-
-a {
-  border-radius: 10px;
-  background: #57BB6B;
-  color: #fff;
-  padding: 10px 20px;
-  margin: 10px;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: 'Maven Pro', sans-serif;
-  font-weight: 400;
-  display: flex;
-  flex-direction: column;
-}
-
-footer {
-  background: #fff;
-  color: #57BB6B;
-  padding: 20px;
-}
-
-.credit {
-  font-size: 12px;
-  color: #57BB6B;
+.p-color {
+  color: #00000085;
 }
 
 
-.img-blog {
-  width: 64px;
-  margin: auto;
-}
 
-.img-selection {
 
-  max-width: 27px;
 
+
+
+.illustration {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
 }
 
+
+.mini {
+  width: 27px;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.section-dark {
+  background: #57BB6B;
+  color: pink;
+  padding: 46px 29px 29px 29px;
+}
+
+.box-blog {
+  border-radius: 30px;
+  padding: 20px 30px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin: 50px 0 50px 0;
+}
 
 .blog-banane {
   background: #FFF8D7;
@@ -157,4 +167,52 @@ footer {
 
 .blog-fraise {
   background: #F7A4B4;
+}
+
+h3 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Sriracha', Arial;
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+
+.plus {
+  background: none;
+  text-decoration: underline;
+  color: #000;
+  font-size: 14px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 700;
+  margin-bottom: 12px;
+  margin-right: 50px;
+}
+
+.ilu-blog {
+  width: 70px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.img-blog {
+  margin: auto;
+}
+
+footer {
+  background: #fff;
+  color: #57BB6B;
+  padding: 42px 70px 45px 70px;
+}
+
+.h-c {
+  margin-bottom: 30px;
+}
+
+.credit {
+  font-size: 12px;
+  color: #57BB6B;
+  margin-top: 74px;
+  margin-bottom: 47px;
 }
