@@ -20,18 +20,10 @@ header {
   padding: 28px 30px 44px 30px;
 }
 
-
-
-
-
-
 .logo {
   width: 200px;
   margin: auto;
 }
-
-
-
 
 .title {
   background: #ffffffe3;
@@ -107,12 +99,6 @@ p {
   color: #00000085;
 }
 
-
-
-
-
-
-
 .illustration {
   display: flex;
   flex-direction: row;
@@ -120,22 +106,10 @@ p {
   justify-content: space-between;
 }
 
-
 .mini {
   width: 27px;
   margin: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .section-dark {
   background: #57BB6B;
